@@ -4,18 +4,18 @@ var del = require('del');
 
 function clean() {
   return del([
-    'Pioneer.Console.Boilerplate.Template/Content/**/*'
+    'NoOrdinary.Console.Template/Content/**/*'
   ]);
 }
 
 function move() {
   return gulp.src([
-    'Pioneer.Console.Boilerplate/**/*',
-    '!Pioneer.Console.Boilerplate/{bin,bin/**/*,obj,obj/**/*}',
-    'Pioneer.Console.Boilerplate/*.cs',
-    'Pioneer.Console.Boilerplate/*.csproj'
+    'NoOrdinary.Console/**/*',
+    '!NoOrdinary.Console/{bin,bin/**/*,obj,obj/**/*}',
+    'NoOrdinary.Console/*.cs',
+    'NoOrdinary.Console/*.csproj'
   ])
-    .pipe(gulp.dest('Pioneer.Console.Boilerplate.Template/Content'));
+    .pipe(gulp.dest('NoOrdinary.Console.Template/Content'));
 }
 
 gulp.task('clean', gulp.series(clean));

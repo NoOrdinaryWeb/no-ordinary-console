@@ -5,8 +5,8 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Pioneer Code.")]
-[assembly: AssemblyProduct("Pioneer.Console.Boilerplate")]
+[assembly: AssemblyCompany("No Ordinary Web")]
+[assembly: AssemblyProduct("NoOrdinary.Console")]
 [assembly: AssemblyTrademark("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible

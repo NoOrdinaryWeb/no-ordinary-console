@@ -1,9 +1,9 @@
-﻿namespace Pioneer.Console.Boilerplate.Models
+﻿namespace NoOrdinary.Console.Models
 {
     public class AppSettings
     {
         /// <summary>
-        /// Sets header title in console window
+        /// Gets or sets header title in console window.
         /// </summary>
         public string ConsoleTitle { get; set; }
     }

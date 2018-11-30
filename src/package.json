@@ -1,12 +1,12 @@
 {
-  "author": "Chad Ramos <jedi_obi_wan_@hotmail.com>",
-  "description": "Pioneer Console Boilerplate",
-  "version": "1.0.0",
-  "name": "pioneer-console-boilerplate",
+  "author": "Dan Elliott <admin@noordinaryweb.com>",
+  "description": "No Ordinary Console",
+  "version": "2.1.0",
+  "name": "no-ordinary-console",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/PioneerCode/pioneer-console-boilerplate"
+    "url": "https://github.com/NoOrdinaryWeb/no-ordinary-console"
   },
   "devDependencies": {
     "del": "2.2.2",

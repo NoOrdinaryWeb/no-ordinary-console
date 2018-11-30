@@ -1,35 +1,35 @@
-# Pioneer .NET Core Console Boilerplate
-Boilerplated .NET Core console application that includes dependency injection, logging and configuration. 
+# No Ordinary .NET Core Console
+Templated .NET Core console application that includes dependency injection, logging and configuration. 
 
 ## Requirements
-The project.json file has been migrated to .csproj and will require the latest [.NET](https://dot.net) tooling. Of which is available in  Visual Sudio 2017 & up.
+The latest [.NET Core][NetCore] tooling which is available in  Visual Sudio 2017 & up.
 
 ## How do I get it
 
 ### Nuget
-Nuget package is hosted at [Pioneer.Console.Boilerplate](https://www.nuget.org/packages/Pioneer.Console.Boilerplate/) and can be installed by running the following...
+Nuget package is hosted at [NoOrdinary.Console](#TODO) and can be installed by running the following...
 
 ```bash
-dotnet new -i Pioneer.Console.Boilerplate::*
+dotnet new -i Serilog.Console.Template::*
 ```
 
 ### Git 
 
 ```bash
-https://github.com/PioneerCode/pioneer-console-boilerplate.git
+https://github.com/NoOrdinaryWeb/no-ordinary-console.git
 ```
 
 ## How do I use it
 Once the template is installed and available in  ```dotnet new```, you can run the following to scaffold your new project using this template.
 
 ```bash
-dotnet new pioneer-console -n "MyName"
+dotnet new no-ordinary-console -n "MyName"
 ```
 
 For additional information about config switches for the template, run the following...
 
 ```bash
-dotnet new pioneer-console -h
+dotnet new no-ordinary-console -h
 ```
 
 ### Configuration
@@ -38,7 +38,22 @@ dotnet new pioneer-console -h
 | :---             | :---        |
 | --title | Replaces title in console window header. |
 
-### Meta
-This came to life after I wrote the following blog posts.
-- [Dependency Injection, Logging and Configuration In A .NET Core Console Application](http://pioneercode.com/post/dependency-injection-logging-and-configuration-in-a-dot-net-core-console-app)
-- [How To Create A dotnet new Project Template In .NET Core](http://pioneercode.com/post/how-to-create-a-dot-net-new-project-template-in-dot-net-core)
+## Built With
+
+* [.NET Core](https://docs.microsoft.com/dotnet/core/) - The development platform used
+* [Serilog](https://serilog.net/) - Provides diagnostic logging
+
+## Authors
+
+* **Chad Ramos** - *Initial work* - [PioneerCode]
+* **Dan Elliott** - *Forked work* - [NoOrdinaryWeb]
+
+See also the list of [contributors](https://github.com/NoOrdinaryWeb/no-ordinary-console/contributors) who participated in this project.
+
+## Acknowledgments
+
+* This project is a fork of the [Pioneer .NET Core Console Boilerplate](https://github.com/PioneerCode/pioneer-console-boilerplate)
+
+[PioneerCode]: https://github.com/PioneerCode/ "Pioneer Code"
+[NoOrdinaryWeb]: https://github.com/NoOrdinaryWeb/ "No Ordinary Web"
+[NetCore]: https://docs.microsoft.com/dotnet/core/ ".NET Core"

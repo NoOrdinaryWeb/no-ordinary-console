@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>NoOrdinary.Console</id>
+    <version>2.1</version>
+    <description>No Ordinary Web: .NET Core Console Application with dependency injection, logging &amp; configuration</description>
+    <authors>Chad Ramos (noordinary.com)</authors>
+    <title>No Ordinary Console</title>
+    <copyright>Copyright 2018: Dan Elliott - No Ordinary Web. All right Reserved.</copyright>
+    <tags>No Ordinary .NET Core Console Dependency Injection Logging Configuration Dan Elliott</tags>
+    <language>en-US</language>
+    <iconUrl>http://noordinaryweb.com/images/logo-large.png</iconUrl>
+    <projectUrl>https://github.com/NoOrdinaryWeb/no-ordinary-console</projectUrl>
+    <licenseUrl>https://github.com/NoOrdinaryWeb/no-ordinary-console/blob/master/LICENSE</licenseUrl>
+    <releaseNotes>https://github.com/NoOrdinaryWeb/no-rdinary-console/blob/master/CHANGELOG.md</releaseNotes>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+  </metadata>
+  <files>
+    <file src="**" exclude="**\bin\**\*;**\obj\**\*;**\*.user;**\*.lock.json" />
+  </files>
+</package>

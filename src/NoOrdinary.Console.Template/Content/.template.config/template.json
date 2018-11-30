@@ -1,0 +1,20 @@
+﻿{
+  "author": "Dan Elliott <admin@noordinaryweb.com>",
+  "classifications": [ "Console", "Template", "Dependency Injection", "Logging", "Configuration" ],
+  "name": "No Ordinary: Console Application with dependency injection, logging & configuration.",
+  "tags": {
+    "language": "C#"
+  },
+  "identity": "NoOrdinary.Console",
+  "shortName": "no-ordinary-console",
+  "sourceName": "NoOrdinary.Console",
+  "symbols": {
+    "title": {
+      "type": "parameter",
+      "datatype": "string",
+      "replaces": "CONSOLE-TITLE",
+      "defaultValue": "No Ordinary Console",
+      "description": "Title that shows up in header of console."
+    }
+  }
+}

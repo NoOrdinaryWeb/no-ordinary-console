@@ -6,13 +6,13 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F1B05581-8290-4440-A0FC-73C1FB115E8C}"
 	ProjectSection(SolutionItems) = preProject
 		gulpfile.js = gulpfile.js
+		NoOrdinary.Console.Template\NoOrdinary.Console.Template.nuspec = NoOrdinary.Console.Template\NoOrdinary.Console.Template.nuspec
 		package.json = package.json
-		Pioneer.Console.Boilerplate.Template\Pioneer.Console.Boilerplate.Template.nuspec = Pioneer.Console.Boilerplate.Template\Pioneer.Console.Boilerplate.Template.nuspec
 		publish-readme.md = publish-readme.md
-		Pioneer.Console.Boilerplate.Template\Content\.template.config\template.json = Pioneer.Console.Boilerplate.Template\Content\.template.config\template.json
+		NoOrdinary.Console.Template\Content\.template.config\template.json = NoOrdinary.Console.Template\Content\.template.config\template.json
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pioneer.Console.Boilerplate", "Pioneer.Console.Boilerplate\Pioneer.Console.Boilerplate.csproj", "{0A91F999-4CCD-41B1-9824-CBFD8A77DF67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoOrdinary.Console", "NoOrdinary.Console\NoOrdinary.Console.csproj", "{0A91F999-4CCD-41B1-9824-CBFD8A77DF67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

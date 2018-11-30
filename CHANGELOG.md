@@ -1,5 +1,11 @@
 ## Pioneer Code - Pioneer Console Boilerplate
 
+<a name="2.1"></a>
+# 2.1
+### Changed
+* Migration to .Net Core 2.1
+* Changed logger to Serilog
+
 <a name="2.0"></a>
 # 2.0
 ### Changed
