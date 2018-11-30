@@ -10,7 +10,7 @@ The latest [.NET Core][NetCore] tooling which is available in  Visual Sudio 2017
 Nuget package is hosted at [NoOrdinary.Console](#TODO) and can be installed by running the following...
 
 ```bash
-dotnet new -i NoOrdinary.Console.Template::*
+dotnet new -i NoOrdinary.Console::*
 ```
 
 ### Git 
